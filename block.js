@@ -13,7 +13,7 @@ class Block{
       display(){
         var angle = this.body.angle;
         var pos= this.body.position;
-        if(this.body.speed<3.5){
+        if(this.body.speed<3.6){
           push();
           translate(pos.x, pos.y);
           rotate(angle);
